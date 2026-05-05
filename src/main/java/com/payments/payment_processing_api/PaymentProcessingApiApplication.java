@@ -1,0 +1,13 @@
+package com.payments.payment_processing_api;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+@SpringBootApplication
+public class PaymentProcessingApiApplication {
+
+	public static void main(String[] args) {
+		SpringApplication.run(PaymentProcessingApiApplication.class, args);
+	}
+
+}
